@@ -1,0 +1,15 @@
+@mixin boxSizes($width, $height) {
+    width: $width;
+    height: $height;
+    
+}
+@mixin centrado(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seguinos{
+    @include boxSizes(250px, 300px );
+    border:solid 2px black;
+    @include centrado;
+}

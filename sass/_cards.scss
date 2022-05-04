@@ -1,0 +1,23 @@
+.card{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    border-radius: 0px;
+    transform: rotate(10deg) skew(-10deg, -5deg);
+    transition: box-shadow .25s ease-in;
+    display: inline;
+    
+    &:hover{
+        box-shadow: 
+        rgba(218, 18, 18, 0.5) 5px 3px,
+        rgba(255, 212, 212, 0.4) 10px 6px,
+        rgba(245, 0, 0, 0.3) 15px 20px;
+    }
+    .servis{
+        color: white;
+        text-align: center;
+    }
+    img{
+        width: 200px;
+    }
+}

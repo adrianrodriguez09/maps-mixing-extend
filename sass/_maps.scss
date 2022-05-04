@@ -1,0 +1,12 @@
+$estilos: (
+   arial: green, 
+   cambria: blue,
+   georgia: red
+);
+ 
+@each $esti, $color in $estilos{
+    .font__#{$esti} {
+        font-family: #{$esti};
+        color: #{$color};
+    }
+}

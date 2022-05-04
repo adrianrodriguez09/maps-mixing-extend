@@ -1,0 +1,17 @@
+.btn{
+    border: 2px black;
+    background-color: rgb(194, 28, 28);
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+.btn-enviar{
+    @extend .btn;
+    background-color: black;
+}
+.btn-cancelar{
+    @extend .btn;
+    background-color: green;
+}
